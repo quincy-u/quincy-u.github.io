@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Qinxi Yu
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Qinxi
+last_name: Yu
 
 # Status emoji
 status:
@@ -14,34 +14,30 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+# role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Toronto
+    url: https://www.utoronto.ca/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include reinforcement learning and robotics.
 
 # Interests to show in About widget
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Reinforcement Learning
+  - Deep Learning
+  - Machine Learning
+  - Robotics
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: BSc in Computer Science
+      institution: University of Toronto
+      year: 2018 - 2023
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -51,21 +47,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/quincy-u
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/qinxi-yu/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -74,11 +61,12 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'quincyouxiang@gmail.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I completed my Bachelor of Science degree at the University of Toronto, specialist in Computer Science with focus in Artificial Intelligence. My research interests are in in reinforcement learning, machine learning and robotics. I am supervised by Professor Animesh Garg at the PAIR Lab. I have also worked with Professor Ken GoldBerg from UC Berkeley and Professor Wen Sun from Cornell. I am currently working at Amazon as a Software Development Engineer. My dream is to make intelligent robots integrated into our daily lives.
+
 {style="text-align: justify;"}
