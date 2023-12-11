@@ -22,7 +22,7 @@ organizations:
     url: https://www.utoronto.ca/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include reinforcement learning and robotics.
+bio: My research interests include robotics and reinforcement learning.
 
 # Interests to show in About widget
 interests:
@@ -67,6 +67,6 @@ email: 'quincyouxiang@gmail.com'
 highlight_name: true
 ---
 
-I completed my Bachelor of Science degree at the University of Toronto, specialist in Computer Science with focus in Artificial Intelligence. My research interests are in in reinforcement learning, machine learning and robotics. I am supervised by Professor Animesh Garg at the PAIR Lab. I have also worked with Professor Ken GoldBerg from UC Berkeley and Professor Wen Sun from Cornell. I am currently working at Amazon as a Software Development Engineer. My dream is to make intelligent robots integrated into our daily lives.
+I completed my Bachelor of Science degree at the University of Toronto, specialist in Computer Science with focus in Artificial Intelligence. My research interests are in robotics, reinforcement learning and machine learning. I am supervised by Professor Animesh Garg at the PAIR Lab. I have also worked with Professor Ken GoldBerg from UC Berkeley and Professor Wen Sun from Cornell. I am currently working at Amazon as a Software Development Engineer. My dream is to make intelligent robots integrated into our daily lives.
 
 {style="text-align: justify;"}

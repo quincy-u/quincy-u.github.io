@@ -26,50 +26,49 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Research Assistant
-          company: Preference Based Reinforcement Learning Algorithm
-          company_url: ''
-          company_logo: brain
-          location:
-          date_start: '2023-06-12'
-          date_end: ''
-          description: |2-
-              * Advised by Professor Wen Sun at Cornell University
-              * Project in progress
-              * Develop new preference-based reinforement learning algorithm.
-        - title: Research Assistant
-          company: Reinforcement Learning for Surgical Task
-          company_url: ''
-          company_logo: brain
-          location: BAIR Lab & PAIR Lab
-          date_start: '2023-07-31'
-          date_end: '2023-06-20'
-          description: |2-
-              * Advised by Professor Ken Goldberg and Professor Animesh Garg
-              * Project in progress
-              * Train reinforcement learning policies to complete surgical robotics tasks in simulation. And deploy the learned policy onto real surgical robots.
-        - title: Research Assistant
-          company: Surgical Robot Learning Framework
+        - title: Robot-Assisted Vascular Shunt Insertion with the dVRK Surgical Robot
+          company: Prof. Ken Goldberg @UC Berkeley & Prof. Animesh Garg @Georgia Tech
           company_url: ''
           company_logo: robot-hand
-          location: PAIR Lab & BAIR Lab
-          date_start: '2022-11-01'
-          date_end: '2023-06-09'
+          location: UC Berkeley, BAIR Lab & Georgia Tech, PAIR Lab
+          date_start: '2023-07-31'
+          date_end: '2023-10-10'
           description: |2-
-              * Advised by Professor Animesh Garg and Professor Ken Goldberg
-              * Paper in review
-              * (First Author) Develop simulation framework focusing on surgical robotics
-        - title: Research Assistant
-          company: Isaac Orbit
-          company_url: 'https://isaac-orbit.github.io/'
+              * https://sites.google.com/berkeley.edu/ravsi
+              * Paper accepted at JMRR 2023 
+              * Research on Robot-Assisted Vascular Shunt Insertion with the dVRK Surgical Robot
+        - title: (First Author) ORBIT-Surgical - An Open-Simulation Framework for Accelerated Learning Environments in Surgical Autonomy
+          company: Prof. Ken Goldberg @UC Berkeley & Prof. Animesh Garg @Georgia Tech
+          company_url: ''
+          company_logo: robot-hand
+          location: UC Berkeley, BAIR Lab & Georgia Tech, PAIR Lab
+          date_start: '2022-11-01'
+          date_end: '2023-09-30'
+          description: |2-
+              * https://orbit-surgical.github.io
+              * First-Author paper under review at ICRA 2024
+              * Research on Robot Learning For Surgical Manipulation Tasks With ORBIT (ORBIT-SURGICAL)
+        - title: ORBIT - A Unified Simulation Framework for Interactive Robot Learning Environments
+          company: Prof. Animesh Garg @Georgia Tech
+          company_url: ''
           company_logo: robot-hand
           location: PAIR Lab
           date_start: '2021-07-01'
           date_end: '2022-11-01'
           description: |2-
-              * Advised by Professor Animesh Garg
-              * Paper accepted at IEEE Robotics and Automation Letters 2023
+              *  https://isaac-orbit.github.io/
+              * Paper accepted at IEEE Robotics and Automation Letters (RA-L) and ICRA 2023
               * Develop simulation framework ORBIT for robot learning environments
+        - title: Hybrid RL with Preference-Based Reward Learning
+          company: Prof. Wen Sun @Cornell University
+          company_url: ''
+          company_logo: brain
+          location: Cornell University
+          date_start: '2023-06-12'
+          date_end: ''
+          description: |2-
+              * Project in progress
+              * Develop new preference-based reinforement learning algorithm.
     design:
       columns: '2'
   - block: collection
