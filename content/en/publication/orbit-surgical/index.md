@@ -1,5 +1,5 @@
 ---
-title: "(Under Review) ORBIT-Surgical: An Open Simulation Framework for Accelerated Learning in Surgical Autonomy"
+title: "(Accepted) ORBIT-Surgical: An Open Simulation Framework for Accelerated Learning in Surgical Autonomy"
 authors:
 - Qinxi Yu*, Masoud Moghani*, Karthik Dharmarajan, Vincent Schorp, William Chung-Ho Panitch, Jingzhou Liu, Kush Hari, Huang Huang, Mayank Mittal, Ken Goldberg, Animesh Garg
 author_notes:

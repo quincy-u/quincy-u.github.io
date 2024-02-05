@@ -46,7 +46,7 @@ sections:
           date_end: '2023-09-30'
           description: |2-
               * https://orbit-surgical.github.io
-              * First-Author paper under review at ICRA 2024
+              * First-Author paper accepted at ICRA 2024
               * Research on Robot Learning For Surgical Manipulation Tasks With ORBIT (ORBIT-SURGICAL)
         - title: ORBIT - A Unified Simulation Framework for Interactive Robot Learning Environments
           company: Prof. Animesh Garg @Georgia Tech
