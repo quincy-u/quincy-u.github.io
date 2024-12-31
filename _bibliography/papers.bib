@@ -1,115 +1,56 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@article{orbit,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+  abbr={IsaacLab},
+  title={ORBIT: A Unified Simulation Framework for Interactive Robot Learning Environments},
+  abstract={We present ORBIT, a unified and modular framework for robotics and robot learning, powered by NVIDIA Isaac Sim. It offers a modular design to easily and efficiently create robotic environments with photo-realistic scenes, and fast and accurate rigid and soft body simulation. With ORBIT, we provide a suite of benchmark tasks of varying difficulty- from single-stage cabinet opening and cloth folding to multi-stage tasks such as room reorganization. The tasks include variations in objects' physical properties and placements, material textures, and scene lighting. To support working with diverse observations and actions spaces, we include various fixed-arm and mobile manipulators with different controller implementations and physics-based sensors. ORBIT allows training reinforcement learning policies and collecting large demonstration datasets from hand-crafted or expert solutions in a matter of minutes by leveraging GPU-based parallelization. In summary, we offer fourteen robot articulations, three different physics-based sensors, twenty learning environments, wrappers to four different learning frameworks and interfaces to help connect to a real robot. With this framework, we aim to support various research areas, including representation learning, reinforcement learning, imitation learning, and motion planning. We hope it helps establish interdisciplinary collaborations between these communities and its modularity makes it easily extensible for more tasks and applications in the future.},
+  journal={IEEE RA-L 2023},
+  year={2023},
+  month={April},
+  url={https://isaac-orbit.github.io/},
+  google_scholar_id={u-x6o8ySG0sC},
+  additional_info={. *More Information* can be [found here](https://isaac-orbit.github.io/)},
   selected={true},
-  inspirehep_id = {3255}
+  preview={orbit.gif}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{shunt-insertion,
+  title={Robot-Assisted Vascular Shunt Insertion with the dVRK Surgical Robot},
+  abstract={Vascular shunt insertion is a common surgical procedure performed to restore blood flow to damaged tissues temporarily. It usually requires a surgeon and a surgical assistant. We consider three scenarios: (1) a surgeon is available locally; (2) a remote surgeon is available via teleoperation; (3) no surgeon is available. In each scenario, a minimally invasive surgical-assistant da Vinci robot operates in a different mode either by teleoperation or automation. Robotic assistance for this procedure is challenging due to precision and control uncertainty. The role of the robot in this task depends on the availability of a human surgeon. We propose a trimodal framework for vascular shunt insertion assisted by a da Vinci Research Kit (dVRK) robotic surgical assistant (RSA). To help further study for the community, we also present a physics-based simulated environment for shunt insertion built on top of the NVIDIA Isaac …},
+  journal={JMRR 2023},
+  year={2023},
+  month={November},
+  url={ https://sites.google.com/berkeley.edu/ravsi},
+  google_scholar_id={d1gkVwhDpl0C},
+  additional_info={. *More Information* can be [found here]( https://sites.google.com/berkeley.edu/ravsi)},
+  selected={true},
+  preview={shunt.png}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@article{orbit-surgical,
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  abbr={Orbit-Surgical},
+  title={ ORBIT-Surgical: An Open-Simulation Framework for Accelerated Learning Environments in Surgical Autonomy},
+  abstract={Physics-based simulations have accelerated progress in robot learning for driving, manipulation, and locomotion. Yet, a fast, accurate, and robust surgical simulation environment remains a challenge. In this paper, we present ORBIT-Surgical, a physics-based surgical robot simulation framework with photorealistic rendering in NVIDIA Omniverse. We provide 14 benchmark surgical tasks for the da Vinci Research Kit (dVRK) and Smart Tissue Autonomous Robot (STAR) which represent common subtasks in surgical training. ORBIT-Surgical leverages GPU parallelization to train reinforcement learning and imitation learning algorithms to facilitate study of robot learning to augment human surgical skills. ORBIT-Surgical also facilitates realistic synthetic data generation for active perception tasks. We demonstrate ORBIT-Surgical sim-to-real transfer of learned policies onto a physical dVRK robot.},
+  journal={IEEE ICRA 2024},
+  year={2024},
+  month={April},
+  url={ https://orbit-surgical.github.io/ },
+  google_scholar_id={2osOgNQ5qMEC},
+  additional_info={. *More Information* can be [found here]( https://orbit-surgical.github.io/ )},
+  selected={true},
+  preview={orbit-surgical.png}
 }
 
-@book{przibram1967letters,
+@article{egovla,
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  abbr={egovla},
+  title={EGOVLA: Learning Vision-Language-Action Models from Egocentric Human Videos},
+  journal={CVPR 2025},
+  year={2024},
+  month={November},
+  additional_info={. Under Review },
+  selected={true},
 }
