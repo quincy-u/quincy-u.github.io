@@ -20,9 +20,9 @@ social: true # includes social icons at the bottom of the page
 
 Welcome!
 
-I am a CS PhD student supervised by Shenlong Wang at UIUC. My research focuses on robot learning. 
+I am a CS PhD student supervised by Prof. Shenlong Wang at UIUC. My research focuses on robot learning. 
 
-Before this, I completed my CS bachelor at the University of Toronto, where I was supervised by Prof. Animesh Garg (Now Georgia Tech). In the past, I have been working closely with Prof. Ken Goldberg from UC Berkeley and Xiaolong Wang from UCSD.
+Before this, I completed my CS bachelor at the University of Toronto, where I was supervised by Prof. Animesh Garg (Now Georgia Tech). In the past, I have been working closely with Prof. Ken Goldberg from UC Berkeley and Prof. Xiaolong Wang from UCSD.
 
 My dream is to make intelligent robots integrated into our daily lives.
 
