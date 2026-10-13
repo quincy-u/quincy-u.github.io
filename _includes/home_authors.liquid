@@ -1,0 +1,19 @@
+{%- comment -%}
+  Renders an author list, bolding the site owner. Long lists collapse after
+  max(6, owner's position) names, with a button to reveal the rest.
+{%- endcomment -%}
+{%- assign me = site.first_name | append: ' ' | append: site.last_name -%}
+{%- assign n = include.pub.authors | size -%}
+{%- assign cut = 6 -%}
+{%- for a in include.pub.authors -%}
+  {%- if a == me and forloop.index > cut -%}{%- assign cut = forloop.index -%}{%- endif -%}
+{%- endfor -%}
+{%- assign hidden_count = n | minus: cut -%}
+{%- if hidden_count < 3 -%}{%- assign cut = n -%}{%- endif -%}
+{%- for a in include.pub.authors -%}
+  {%- if forloop.index0 == cut -%}<span class="authors__more" hidden>{%- endif -%}
+  {%- if a == me -%}<b>{{ a }}</b>{%- else -%}{{ a }}{%- endif -%}
+  {%- if include.pub.equal contains a -%}<sup title="Equal contribution">*</sup>{%- endif -%}
+  {%- unless forloop.last -%}, {% endunless -%}
+  {%- if forloop.last and cut < n -%}</span><button class="authors__toggle" type="button" aria-expanded="false">+{{ n | minus: cut }} more</button>{%- endif -%}
+{%- endfor -%}

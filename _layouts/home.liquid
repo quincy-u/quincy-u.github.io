@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.first_name }} {{ site.last_name }}</title>
+    <meta name="description" content="{{ page.description | strip_html | strip }}">
+    <meta name="author" content="{{ site.first_name }} {{ site.last_name }}">
+    <meta property="og:title" content="{{ site.first_name }} {{ site.last_name }}">
+    <meta property="og:description" content="{{ page.description | strip_html | strip }}">
+    <meta property="og:image" content="{{ '/assets/home/media/portrait-full.jpg' | absolute_url }}">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url }}">
+    <meta name="theme-color" content="#f6ae86" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#12100f" media="(prefers-color-scheme: dark)">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/home/style.css' | relative_url }}">
+
+    <script>
+      // Apply the saved theme before first paint to avoid a flash.
+      try {
+        var t = localStorage.getItem('qy-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    </script>
+
+    {% if site.enable_google_analytics and jekyll.environment == 'production' %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+  </head>
+
+  <body>
+    <header class="bar band-orange">
+      <div class="bar__in">
+        <a class="bar__name" href="#top">{{ site.first_name }} {{ site.last_name }}</a>
+        <nav class="bar__nav" aria-label="Sections">
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme" type="button" aria-label="Toggle dark mode">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5.25"/><path d="M12 6.75a5.25 5.25 0 0 1 0 10.5z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="intro band-orange">
+        <div class="intro__text">
+          <h1>{{ site.first_name }} {{ site.last_name }}</h1>
+          <div class="intro__bio">{{ content }}</div>
+          <p class="intro__links">
+            {% for l in page.links %}<a href="{{ l.url }}" {% unless l.url contains 'mailto:' %}target="_blank" rel="noopener"{% endunless %}>{{ l.label }}</a>{% endfor %}
+          </p>
+        </div>
+        <img class="intro__photo" src="{{ '/assets/home/media/portrait-full.jpg' | relative_url }}" alt="{{ site.first_name }} {{ site.last_name }}" width="1200" height="887">
+      </section>
+
+      <section class="sec band-lime" id="news">
+        <h2>News</h2>
+        <ul class="news">
+          {% for n in site.data.news %}
+            <li><time>{{ n.date }}</time><p>{{ n.text }}</p></li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="sec" id="publications">
+        <h2>Publications</h2>
+        <ol class="pubs">
+          {% for p in site.data.publications %}
+            <li class="pub">
+              <a class="pub__thumb" href="{{ p.links[0].url }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                {% if p.video %}
+                  <video muted loop playsinline preload="none" poster="{{ p.poster | prepend: '/assets/home/media/' | relative_url }}" data-src="{{ p.video | prepend: '/assets/home/media/' | relative_url }}"></video>
+                {% else %}
+                  <img src="{{ p.poster | prepend: '/assets/home/media/' | relative_url }}" alt="" loading="lazy"{% if p.fit %} style="object-fit: {{ p.fit }}; background: #fff"{% endif %}>
+                {% endif %}
+              </a>
+              <div>
+                <h3 class="pub__title"><a href="{{ p.links[0].url }}" target="_blank" rel="noopener">{{ p.title }}</a></h3>
+                <p class="authors">{% include home_authors.liquid pub=p %}</p>
+                <p class="pub__meta">
+                  <span class="pub__venue">{{ p.venue }} {{ p.year }}</span>
+                  {% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor %}
+                </p>
+              </div>
+            </li>
+          {% endfor %}
+        </ol>
+      </section>
+    </main>
+
+    <footer class="foot" id="contact">
+      <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+      <span>{{ page.location }}</span>
+      <span>© {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}</span>
+    </footer>
+
+    <script src="{{ '/assets/home/main.js' | relative_url }}" defer></script>
+  </body>
+</html>

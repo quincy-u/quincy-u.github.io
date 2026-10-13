@@ -1,0 +1,10 @@
+# Short updates shown on the homepage, newest first. `text` may contain inline HTML.
+
+- date: 2026
+  text: '<a href="https://box-wam.github.io/">BoxWAM</a> accepted to <b>CoRL 2026</b>. Code is <a href="https://github.com/quincy-u/box-wam">open-sourced</a>.'
+- date: Jul 2025
+  text: '<a href="https://rchalyang.github.io/EgoVLA/">EgoVLA</a> released &mdash; learning VLA models from egocentric human videos.'
+- date: 2024
+  text: '<a href="https://orbit-surgical.github.io/">ORBIT-Surgical</a> presented at <b>ICRA 2024</b>.'
+- date: 2023
+  text: '<a href="https://isaac-orbit.github.io/">ORBIT</a> published in <b>IEEE RA-L</b>; it later grew into NVIDIA Isaac Lab.'

@@ -1,0 +1,57 @@
+# Publications shown on the homepage, newest first.
+# `equal` lists authors marked as equal contribution.
+
+- key: boxwam
+  title: "BoxWAM: Box Trajectories as Compact State Representations for World Action Models"
+  authors: [Qinxi Yu, Wenzhou Ding, Gloria X. Wang, Albert J. Zhai, Shenlong Wang]
+  venue: CoRL
+  year: 2026
+  video: boxwam.mp4
+  poster: boxwam.jpg
+  links:
+    - { label: Project, url: "https://box-wam.github.io/" }
+    - { label: Code, url: "https://github.com/quincy-u/box-wam" }
+
+- key: egovla
+  title: "EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos"
+  authors: [Ruihan Yang, Qinxi Yu, Yecheng Wu, Rui Yan, Borui Li, An-Chieh Cheng, Xueyan Zou, Yunhao Fang, Xuxin Cheng, Ri-Zhao Qiu, Hongxu Yin, Sifei Liu, Song Han, Yao Lu, Xiaolong Wang]
+  venue: IROS
+  year: 2026
+  video: egovla.mp4
+  poster: egovla.jpg
+  links:
+    - { label: Project, url: "https://rchalyang.github.io/EgoVLA/" }
+    - { label: arXiv, url: "https://arxiv.org/abs/2507.12440" }
+
+- key: orbit-surgical
+  title: "ORBIT-Surgical: An Open-Simulation Framework for Learning Surgical Augmented Dexterity"
+  authors: [Qinxi Yu, Masoud Moghani, Karthik Dharmarajan, Vincent Schorp, William Chung-Ho Panitch, Jingzhou Liu, Kush Hari, Huang Huang, Mayank Mittal, Ken Goldberg, Animesh Garg]
+  equal: [Qinxi Yu, Masoud Moghani]
+  venue: ICRA
+  year: 2024
+  poster: orbit-surgical.jpg
+  links:
+    - { label: Project, url: "https://orbit-surgical.github.io/" }
+    - { label: arXiv, url: "https://arxiv.org/abs/2404.16027" }
+
+- key: shunt
+  title: "Robot-Assisted Vascular Shunt Insertion with the dVRK Surgical Robot"
+  authors: [Karthik Dharmarajan, Will Panitch, Baiyu Shi, Huang Huang, Lawrence Yunliang Chen, Masoud Moghani, Qinxi Yu, Kush Hari, Thomas Low, Danyal Fer, Animesh Garg, Ken Goldberg]
+  venue: JMRR
+  year: 2023
+  poster: shunt.jpg
+  fit: contain # figure with text; show it whole rather than cropping
+  links:
+    - { label: Project, url: "https://sites.google.com/berkeley.edu/ravsi" }
+    - { label: Paper, url: "https://doi.org/10.1142/S2424905X23400068" }
+
+- key: orbit
+  title: "ORBIT: A Unified Simulation Framework for Interactive Robot Learning Environments"
+  authors: [Mayank Mittal, Calvin Yu, Qinxi Yu, Jingzhou Liu, Nikita Rudin, David Hoeller, Jia Lin Yuan, Ritvik Singh, Yunrong Guo, Hammad Mazhar, Ajay Mandlekar, Buck Babich, Gavriel State, Marco Hutter, Animesh Garg]
+  venue: RA-L
+  year: 2023
+  video: orbit.mp4
+  poster: orbit.jpg
+  links:
+    - { label: Project, url: "https://isaac-orbit.github.io/" }
+    - { label: arXiv, url: "https://arxiv.org/abs/2301.04195" }
