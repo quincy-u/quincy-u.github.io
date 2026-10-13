@@ -15,6 +15,7 @@
 - key: egovla
   title: "EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos"
   authors: [Ruihan Yang, Qinxi Yu, Yecheng Wu, Rui Yan, Borui Li, An-Chieh Cheng, Xueyan Zou, Yunhao Fang, Xuxin Cheng, Ri-Zhao Qiu, Hongxu Yin, Sifei Liu, Song Han, Yao Lu, Xiaolong Wang]
+  equal: [Ruihan Yang, Qinxi Yu]
   venue: IROS
   year: 2026
   video: egovla.mp4
