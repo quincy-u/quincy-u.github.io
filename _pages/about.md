@@ -8,10 +8,10 @@ email: quincyouxiang@gmail.com
 location: Champaign, Illinois
 
 links:
-  - { label: Email, url: "mailto:quincyouxiang@gmail.com" }
-  - { label: Google Scholar, url: "https://scholar.google.ca/citations?user=3k7hNDIAAAAJ&hl=en&oi=ao" }
-  - { label: GitHub, url: "https://github.com/quincy-u" }
-  - { label: LinkedIn, url: "https://www.linkedin.com/in/qinxi-yu/" }
+  - { label: Email, icon: email, url: "mailto:quincyouxiang@gmail.com" }
+  - { label: Google Scholar, icon: scholar, url: "https://scholar.google.ca/citations?user=3k7hNDIAAAAJ&hl=en&oi=ao" }
+  - { label: GitHub, icon: github, url: "https://github.com/quincy-u" }
+  - { label: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/qinxi-yu/" }
 ---
 
 I am a CS PhD student at **UIUC**, supervised by [Prof. Shenlong Wang](https://shenlong.web.illinois.edu/). My research focuses on **robot learning**.

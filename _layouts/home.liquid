@@ -60,7 +60,7 @@
           <h1>{{ site.first_name }} {{ site.last_name }}</h1>
           <div class="intro__bio">{{ content }}</div>
           <p class="intro__links">
-            {% for l in page.links %}<a href="{{ l.url }}" {% unless l.url contains 'mailto:' %}target="_blank" rel="noopener"{% endunless %}>{{ l.label }}</a>{% endfor %}
+            {% for l in page.links %}<a href="{{ l.url }}" {% unless l.url contains 'mailto:' %}target="_blank" rel="noopener"{% endunless %}>{% include home_icon.liquid name=l.icon %}{{ l.label }}</a>{% endfor %}
           </p>
         </div>
         <img class="intro__photo" src="{{ '/assets/home/media/portrait-full.jpg' | relative_url }}" alt="{{ site.first_name }} {{ site.last_name }}" width="1200" height="887">

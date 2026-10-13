@@ -225,7 +225,7 @@ video {
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 380px);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 340px);
   gap: clamp(28px, 5vw, 48px);
   align-items: start;
   padding: clamp(32px, 7vw, 72px) var(--inset) clamp(56px, 8vw, 88px);
@@ -261,7 +261,10 @@ h1 {
   font-weight: 500;
 }
 .intro__links a {
-  padding: 5px 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
   background: var(--c-black);
   color: var(--c-paper);
   transition: background-color 0.2s, color 0.2s;
@@ -269,6 +272,12 @@ h1 {
 .intro__links a:hover {
   background: var(--c-yellow);
   color: var(--c-black);
+}
+.intro__links svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+  flex: none;
 }
 
 .intro__photo {
